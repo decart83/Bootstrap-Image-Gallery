@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Jumbotron Template for Bootstrap</title>
+
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+    <link rel="stylesheet" href="css/bootstrap-image-gallery.css">
+    <link rel="stylesheet" href="css/demo.css">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Bedlam Study</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+
+
+
+    <div class="container">
+
+          <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+          <div id="blueimp-gallery" class="blueimp-gallery" data-use-bootstrap-modal="false">
+              <!-- The container for the modal slides -->
+              <div class="slides"></div>
+              <!-- Controls for the borderless lightbox -->
+              <h3 class="title"></h3>
+              <a class="prev">‹</a>
+              <a class="next">›</a>
+              <a class="close">×</a>
+              <a class="play-pause"></a>
+              <ol class="indicator"></ol>
+              <!-- The modal dialog, which will be used to wrap the lightbox content -->
+              <div class="modal fade">
+                  <div class="modal-dialog">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <button type="button" class="close" aria-hidden="true">&times;</button>
+                              <h4 class="modal-title"></h4>
+                          </div>
+                          <div class="modal-body next"></div>
+                          <div class="modal-footer">
+                              <button type="button" class="btn btn-default pull-left prev">
+                                  <i class="glyphicon glyphicon-chevron-left"></i>
+                                  Previous
+                              </button>
+                              <button type="button" class="btn btn-primary next">
+                                  Next
+                                  <i class="glyphicon glyphicon-chevron-right"></i>
+                              </button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+          <!-- Begin Image List -->
+
+          <div id="links">
+
+          <div class="row">
+              <div class="col-lg-4">
+                  <center>A Glimpse Out the Bus Window</center>
+                  <a href='img/A_Glimpse_Out_the_Bus_Window.jpg' title='A Glimpse Out the Bus Window' data-gallery><img src='img/A_Glimpse_Out_the_Bus_Window.jpg' alt='A Glimpse Out the Bus Window'></a>
+              </div>
+
+              <div class="col-lg-4">
+                  <center>Building Castles Out of Sand</center>
+                  <a href='img/Building_Castles_Out_of_Sand.jpg' title='Building Castles Out of Sand' data-gallery><img src='img/Building_Castles_Out_of_Sand.jpg' alt='Building Castles Out of Sand'></a>
+              </div>
+
+              <div class="col-lg-4">
+                  <center>Bury the Sword</center>
+                  <a href='img/Bury_the_Sword.jpg' title='Bury the Sword' data-gallery><img src='img/Bury_the_Sword.jpg' alt='Bury the Sword'></a>
+              </div>
+          </div>
+
+          <div class="row">
+              <div class="col-lg-4">
+                  <center>Empty Nest Syndrome</center>
+                  <a href='img/Empty_Nest_Syndrome20x14.jpg' title='Empty Nest Syndrome' data-gallery><img src='img/Empty_Nest_Syndrome20x14.jpg' alt='Empty Nest Syndrome'></a>
+              </div>
+
+              <div class="col-lg-4">
+                  <center>Fear is What You Make It</center>
+                  <a href='img/Fear_is_What_You_Make_It.jpg' title='Fear is What You Make It' data-gallery><img src='img/Fear_is_What_You_Make_It.jpg' alt='Fear is What You Make It'></a>
+              </div>
+
+              <div class="col-lg-4">
+                  <center>Holding Onto Wisdom & Peace</center>
+                  <a href='img/Holding_Onto_Wisdom_&_Peace.jpg' title='Holding Onto Wisdom & Peace' data-gallery><img src='img/Holding_Onto_Wisdom_&_Peace.jpg' alt='Holding Onto Wisdom & Peace'></a>
+              </div>
+          </div>
+
+          <div class="row">
+              <div class="col-lg-4">
+                  <center>Im Aware Im a Whale 2</center>
+                  <a href='img/Im_Aware_Im_a_Whale_2.jpg' title='Im Aware Im a Whale 2' data-gallery><img src='img/Im_Aware_Im_a_Whale_2.jpg' alt='Im Aware Im a Whale 2'></a>
+              </div>
+
+              <div class="col-lg-4">
+                  <center>Im Aware Im a Whale</center>
+                  <a href='img/Im_Aware_Im_a_Whale.jpg' title='Im Aware Im a Whale' data-gallery><img src='img/Im_Aware_Im_a_Whale.jpg' alt='Im Aware Im a Whale'></a>
+              </div>
+
+              <div class="col-lg-4">
+                  <center>Keeping Secrets Through Pulse Dialing</center>
+                  <a href='img/Keeping_Secrets_Through_Pulse_Dialing.jpg' title='Keeping Secrets Through Pulse Dialing' data-gallery><img src='img/Keeping_Secrets_Through_Pulse_Dialing.jpg' alt='Keeping Secrets Through Pulse Dialing'></a>
+              </div>
+          </div>
+
+          <div class="row">
+              <div class="col-lg-4">
+                  <center>Let the Roots Grow In</center>
+                  <a href='img/Let_the_Roots_Grow_In.jpg' title='Let the Roots Grow In' data-gallery><img src='img/Let_the_Roots_Grow_In.jpg' alt='Let the Roots Grow In'></a>
+              </div>
+
+              <div class="col-lg-4">
+                  <center>Making Monsters</center>
+                  <a href='img/Making_Monsters.jpg' title='Making Monsters' data-gallery><img src='img/Making_Monsters.jpg' alt='Making Monsters'></a>
+              </div>
+
+              <div class="col-lg-4">
+                  <center>Nanook</center>
+                  <a href='img/Nanook.jpg' title='Nanook' data-gallery><img src='img/Nanook.jpg' alt='Nanook'></a>
+              </div>
+          </div>
+
+          <div class="row">
+              <div class="col-lg-4">
+                  <center>One Man Band</center>
+                  <a href='img/One_Man_Band.jpg' title='One Man Band' data-gallery><img src='img/One_Man_Band.jpg' alt='One Man Band'></a>
+              </div>
+
+              <div class="col-lg-4">
+                  <center>Peek-a-boo</center>
+                  <a href='img/Peek-a-boo.jpg' title='Peek-a-boo' data-gallery><img src='img/Peek-a-boo.jpg' alt='Peek-a-boo'></a>
+              </div>
+
+              <div class="col-lg-4">
+                  <center>Siamese Dream</center>
+                  <a href='img/Siamese_Dream.jpg' title='Siamese Dream' data-gallery><img src='img/Siamese_Dream.jpg' alt='Siamese Dream'></a>
+              </div>
+          </div>
+
+          <div class="row">
+              <div class="col-lg-4">
+                  <center>The Birth of Mother Earth</center>
+                  <a href='img/The_Birth_of_Mother_Earth.jpg' title='The Birth of Mother Earth' data-gallery><img src='img/The_Birth_of_Mother_Earth.jpg' alt='The Birth of Mother Earth'></a>
+              </div>
+
+              <div class="col-lg-4">
+                  <center>The Bridge</center>
+                  <a href='img/The_Bridge.jpg' title='The Bridge' data-gallery><img src='img/The_Bridge.jpg' alt='The Bridge'></a>
+              </div>
+
+              <div class="col-lg-4">
+                  <center>The Scarecrow</center>
+                  <a href='img/The_Scarecrow.jpg' title='The Scarecrow' data-gallery><img src='img/The_Scarecrow.jpg' alt='The Scarecrow'></a>
+              </div>
+          </div>
+
+          <div class="row">
+              <div class="col-lg-4">
+                  <center>Tickling the Ivories</center>
+                  <a href='img/Tickling_the_Ivories.jpg' title='Tickling the Ivories' data-gallery><img src='img/Tickling_the_Ivories.jpg' alt='Tickling the Ivories'></a>
+              </div>
+
+              <div class="col-lg-4">
+                  <center>Until Summer Ends</center>
+                  <a href='img/Until_Summer_Ends.jpg' title='Until Summer Ends' data-gallery><img src='img/Until_Summer_Ends.jpg' alt='Until Summer Ends'></a>
+              </div>
+
+              <div class="col-lg-4">
+              <center>A Worm in a Frogs Heart</center>    
+                  <a href='img/A_Worm_in_a_Frogs_Heart.jpg' title='A Worm in a Frogs Heart' data-gallery><img src='img/A_Worm_in_a_Frogs_Heart.jpg' alt='A Worm in a Frogs Heart'></a>
+              </div>
+          </div>
+
+          <div class="row">
+              <div class="col-lg-4">
+                  <center>Archers in our Arches</center>
+                  <a href='img/Archers_in_our_Arches.jpg' title='Archers in our Arches' data-gallery><img src='img/Archers_in_our_Arches.jpg' alt='Archers in our Arches'></a>
+              </div>
+
+              <div class="col-lg-4">
+                  <center>Ballerina Oceanic</center>
+                  <a href='img/Ballerina_Oceanic.jpg' title='Ballerina Oceanic' data-gallery><img src='img/Ballerina_Oceanic.jpg' alt='Ballerina Oceanic'></a>
+              </div>
+
+              <div class="col-lg-4">
+                  <center>Cupids Game</center>
+                  <a href='img/Cupids_Game.jpg' title='Cupids Game' data-gallery><img src='img/Cupids_Game.jpg' alt='Cupids Game'></a>
+              </div>
+          </div>
+
+          <div class="row">
+              <div class="col-lg-4">
+                  <center>Cut Out the Cancer</center>
+                  <a href='img/Cut_Out_the_Cancer.jpg' title='Cut Out the Cancer' data-gallery><img src='img/Cut_Out_the_Cancer.jpg' alt='Cut Out the Cancer'></a>
+              </div>
+
+              <div class="col-lg-4">
+                  <center>Egg Part 1</center>
+                  <a href='img/Egg_Part_1.jpg' title='Egg Part 1' data-gallery><img src='img/Egg_Part_1.jpg' alt='Egg Part 1'></a>
+              </div>
+
+              <div class="col-lg-4">
+                  <center>Egg Part 2</center>
+                  <a href='img/Egg_Part_2.jpg' title='Egg Part 2' data-gallery><img src='img/Egg_Part_2.jpg' alt='Egg Part 2'></a>
+              </div>
+          </div>
+
+          <div class="row">
+              <div class="col-lg-4">
+                  <center>End of the Rainbow</center>
+                  <a href='img/End_of_the_Rainbow.jpg' title='End of the Rainbow' data-gallery><img src='img/End_of_the_Rainbow.jpg' alt='End of the Rainbow'></a>
+              </div>
+
+              <div class="col-lg-4">
+                  <center>Gods Call</center>
+                  <a href='img/Gods_Call.jpg' title='Gods Call' data-gallery><img src='img/Gods_Call.jpg' alt='Gods Call'></a>
+              </div>
+
+              <div class="col-lg-4">
+                  <center>Meet My Makers</center>
+                  <a href='img/Meet_My_Makers.jpg' title='Meet My Makers' data-gallery><img src='img/Meet_My_Makers.jpg' alt='Meet My Makers'></a>
+              </div>
+          </div>
+
+          <div class="row">
+              <div class="col-lg-4">
+                  <center>My Damsel Breathes Fire</center>
+                  <a href='img/My_Damsel_Breathes_Fire.jpg' title='My Damsel Breathes Fire' data-gallery><img src='img/My_Damsel_Breathes_Fire.jpg' alt='My Damsel Breathes 
+                  Fire'></a>
+              </div>
+
+              <div class="col-lg-4">
+                  <center>My Everything Reflecting on the End of Everything</center>
+                  <a href='img/My_Everything_Reflecting_on_the_End_of_Everything.jpg' title='My Everything Reflecting on the End of Everything' data-gallery><img src='img/My_Everything_Reflecting_on_the_End_of_Everything.jpg' alt='My Everything Reflecting on the End of Everything'></a>
+              </div>
+
+              <div class="col-lg-4">
+                  <center>My Hands Secreate a Monument</center>
+                  <a href='img/My_Hands_Secreate_a_Monument.jpg' title='My Hands Secreate a Monument' data-gallery><img src='img/My_Hands_Secreate_a_Monument.jpg' alt='My 
+                  Hands Secreate a Monument'></a>
+              </div>
+          </div>
+
+          <div class="row">
+              <div class="col-lg-4">
+                  <center>On Elephants Wings</center>
+                  <a href='img/On_Elephants_Wings.jpg' title='On Elephants Wings' data-gallery><img src='img/On_Elephants_Wings.jpg' alt='On Elephants Wings'></a>
+              </div>
+
+              <div class="col-lg-4">
+                  <center>Orange Peel Sunrise</center>
+                  <a href='img/Orange_Peel_Sunrise.jpg' title='Orange Peel Sunrise' data-gallery><img src='img/Orange_Peel_Sunrise.jpg' alt='Orange Peel Sunrise'></a>
+              </div>
+
+              <div class="col-lg-4">
+                  <center>Pluck the Perl</center>
+                  <a href='img/Pluck_the_Perl.jpg' title='Pluck the Perl' data-gallery><img src='img/Pluck_the_Perl.jpg' alt='Pluck the Perl'></a>
+              </div>
+          </div>
+
+          <div class="row">
+              <div class="col-lg-4">
+                  <center>Purgatory in Autumn</center>
+                  <a href='img/Purgatory_in_Autumn.jpg' title='Purgatory in Autumn' data-gallery><img src='img/Purgatory_in_Autumn.jpg' alt='Purgatory in Autumn'></a>
+              </div>
+
+              <div class="col-lg-4">
+                  <center>Receive the Son</center>
+                  <a href='img/Receive_the_Son.jpg' title='Receive the Son' data-gallery><img src='img/Receive_the_Son.jpg' alt='Receive the Son'></a>
+              </div>
+
+              <div class="col-lg-4">
+                  <center>Red Handed</center>
+                  <a href='img/Red_Handed.jpg' title='Red Handed' data-gallery><img src='img/Red_Handed.jpg' alt='Red Handed'></a>
+              </div>
+          </div>
+
+          <div class="row">
+              <div class="col-lg-4">
+                  <center>The Sorrow of Miss Carraige</center>
+                  <a href='img/The_Sorrow_of_Miss_Carraige.jpg' title='The Sorrow of Miss Carraige' data-gallery><img src='img/The_Sorrow_of_Miss_Carraige.jpg' alt='The 
+                  Sorrow of Miss Carraige'></a>
+              </div>
+
+              <div class="col-lg-4">
+                  <center>Time Flies</center>
+                  <a href='img/Time_Flies.jpg' title='Time Flies' data-gallery><img src='img/Time_Flies.jpg' alt='Time Flies'></a>
+              </div>
+
+              <div class="col-lg-4">
+                  <center>When Our Lives Meet</center>
+                  <a href='img/When_Our_Lives_Meet.jpg' title='When Our Lives Meet' data-gallery><img src='img/When_Our_Lives_Meet.jpg' alt='When Our Lives Meet'></a>
+              </div>
+          </div>
+
+          <div class="row">
+              <div class="col-lg-4">
+                  <center>Youre Not Alone</center>
+                  <a href='img/Youre_Not_Alone.jpg' title='Youre Not Alone' data-gallery><img src='img/Youre_Not_Alone.jpg' alt='Youre Not Alone'></a>
+              </div>
+          </div>
+
+
+          </div>
+
+
+          <!-- End Image List -->
+
+
+    </div>
+
+
+
+
+      <hr>
+
+      <footer>
+        <p>&copy; 2015 Company, Inc.</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Bootstrap JS is not required, but included for the responsive demo navigation and button states -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+    <script src="js/bootstrap-image-gallery.js"></script>
+  </body>
+</html>
