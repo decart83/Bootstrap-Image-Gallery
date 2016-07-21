@@ -10,11 +10,12 @@
  * http://www.opensource.org/licenses/MIT
  */
 
+
 body {
     padding-top: 60px;
     background: #000;
     color: #fff;
-    font-size:16px; 
+    font-size:16px;
 
 }
 
@@ -42,7 +43,8 @@ h2 {
 
 
 a {
-    color: orange;
+    color: gray;
+
 }
 a:hover {
     color: lightblue;
@@ -69,4 +71,21 @@ img {
 .navbar a:link{
 
     font-weight: bold;
+}
+
+
+.aboutBrian {
+    padding-top: 60px;
+    background: #999;
+    color: #fff;
+    font-size:16px; 
+
+}
+
+.contactBrian {
+    padding-top: 60px;
+    background: #000;
+    color: #fff;
+    font-size:16px; 
+
 }
